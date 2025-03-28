@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Agent : MonoBehaviour
 {
-    private Rigidbody rb;
+    public Rigidbody rb;
     float speed = 5.0f;
     void Start()
     {
