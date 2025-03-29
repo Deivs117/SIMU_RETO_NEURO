@@ -110,7 +110,7 @@ public class Player : MonoBehaviour
     {
         if (z[4, 0] > 1)
         {
-            navMeshAgent.speed = 7f;
+            navMeshAgent.speed = 10f;
             Vector3 destination_goal = new Vector3(25, playerTransform.position.y, 12.5f);
             navMeshAgent.destination = destination_goal;
             Debug.Log("Moviéndose a la posición segura");
